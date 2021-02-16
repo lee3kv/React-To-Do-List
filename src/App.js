@@ -18,7 +18,6 @@ function App() {
   }
 
   function removed(e){
-    console.log(list)
     setList(current=>current.filter(items=> items != e.target.innerHTML))
   }
 
